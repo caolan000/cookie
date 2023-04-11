@@ -42,7 +42,7 @@ Last change:08 june 2018
 body{
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 400;
-	color:#606060;
+	color: var(--text);
 	height:100%!important;
 }
 
@@ -108,7 +108,7 @@ h5 {
     margin: 0;
     font-family: 'Paytone One',serif;
     margin-bottom: 20px;
-    color: #502f22;
+    color: var(--buff);
     text-transform: uppercase;
     letter-spacing: 0.3px;
 }
@@ -964,6 +964,7 @@ footer img{max-width: 280px;}
     transition: all 0.2s ease-in-out;
     box-shadow: 6px 6px 0px rgba(103, 102, 102, 0.2);
 }
+
 
 /*===========================
   Miscellaneous
