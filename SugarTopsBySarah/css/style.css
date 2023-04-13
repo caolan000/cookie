@@ -1,9 +1,4 @@
 /*
-Template Name: Piece of Cake
-Author: Ingrid Kuhn
-Author URI: themeforest/user/ingridk
-Version: 1.0
-Last change:08 june 2018
 
 	Table of Contents
 
@@ -12,7 +7,6 @@ Last change:08 june 2018
 	#Logo
 	#Main Slider
 	#Section - Offer
-	#Section - Services
 	#Section - About
 	#Section - Testimonials
 	#Section - Menu
@@ -20,7 +14,6 @@ Last change:08 june 2018
     #Section - Gallery
 	#Section - Team
 	#Section - Contact
-	#Section - Map
     #Section - Footer
 	#Miscellaneous
 	#Media Queries
@@ -516,41 +509,6 @@ ul.slider-pagi {padding-left:0px;}
 	background-repeat:no-repeat;
 }
 
-/*===========================
-  Services
-============================ */
-
-/* Services boxes */
-
-.box_icon > .icon {
-    text-align: center;
-    position: relative;
-}
-
-.box_icon > .icon > .image {
-	position: relative;
-	z-index: 2;
-	margin: 0 auto !important;
-	margin: 0px 60px;
-	transition: all 0.3s;
-	line-height: 100px;
-	width: 150px;
-	color:var(--champagne);
-	border-radius: 50%;
-	box-shadow: 6px 6px 0px;
-	border: 12px solid var(--champagne);
-}
-
-.box_icon > .icon:hover > .image {transform: rotate(10deg);}
-
-.box_icon > .icon > .info {
-	margin-top: -64px;
-	border-radius: 20px;
-	padding: 95px 20px 40px;
-	border: 6px solid var(--champagne);
-	transition: all 0.3s;
-}
-
 /* ===========================
 --- About Us 
 ============================ */
@@ -715,7 +673,7 @@ ul.slider-pagi {padding-left:0px;}
 	border:2px solid var(--champagne);
 	transition: all 0.2s ease-in-out;
 }
-.menu-item:hover{border:2px dotted #dadad7;}
+.menu-item:hover{border:2px dotted var(--champagne);}
 
 /* menu Name */
 
@@ -723,7 +681,7 @@ ul.slider-pagi {padding-left:0px;}
   text-align:left;
   font-size:18px;
   font-family: 'Gloria Hallelujah', cursive;
-  border-bottom: 1px dotted rgb(213, 213, 213);
+  border-bottom: 1px dotted var(--champagne);
 }
 
 /* menu Description */
@@ -913,13 +871,6 @@ ul.slider-pagi {padding-left:0px;}
 	margin: 0 10px;
 	font-size: 18px;
 	font-weight: 700;
-}
-
-/*Map */
-
-#map-canvas {
-	max-width:100%;
-	height: 400px;
 }
 
 /*===========================
