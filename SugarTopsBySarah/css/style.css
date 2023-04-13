@@ -33,7 +33,7 @@ Last change:08 june 2018
 	--champagne: #F7E5D9;
 	--sand: #F5D5C0;
 	--dogwood: #E4B9A8;
-	--buff: #E1B391;
+	--buff: #E0A990;
 	--rosybrown: #C58E7B;
 	--text: #341F17;
 
@@ -695,7 +695,7 @@ ul.slider-pagi {padding-left:0px;}
   margin: 0 auto;
   padding-top:30px;
   display: block;
-  color: rgb(92, 92, 92);
+  color: var(--text);
 }
 
 .menu-section-title {
