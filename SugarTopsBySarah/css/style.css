@@ -582,7 +582,7 @@ ul.slider-pagi {padding-left:0px;}
 .popular-posts .media{
 	padding:0px; 
    text-align:left;
-   border-bottom:1px dotted #cecece;
+   border-bottom:1px dotted var(--sand);
    padding:10px 0px;
    margin-top:0px;
 }
@@ -817,8 +817,8 @@ ul.slider-pagi {padding-left:0px;}
 
 .team-member .team-caption {
   width: 100%;
-  background-color: #F2F2F2;
-  color: #555;
+  background-color: var(--champagne);
+  color: var(--text);
   padding: 125px 25px 25px;
   margin-top: -100px;
   display: inline-block;
@@ -980,7 +980,7 @@ footer img{max-width: 280px;}
 .owl-theme .owl-dots .owl-dot{display:inline-block;}
 
 .owl-theme .owl-dots .owl-dot span{
-	border: 3px solid #cecece;
+	border: 3px solid var(--sand);
 	transition: all .3s ease-in-out;
 	position: relative;
 	display: inline-block;
@@ -990,7 +990,7 @@ footer img{max-width: 280px;}
 	margin: 0 0.5rem;
 	border-radius: 50%;
 	cursor: pointer;
-	color:#000;
+	color: var(--text);
 }
 
 /* Sections */
@@ -1109,7 +1109,7 @@ section{background:var(--champagne);}
 }
 .breadcrumb .active{font-weight:900;}
 
-.breadcrumb a{color: #cecece;}
+.breadcrumb a{color: var(--champagne);}
 
 .breadcrumb>li+li:before {
     padding: 0 10px;
@@ -1197,7 +1197,7 @@ section{background:var(--champagne);}
 	min-height: 50px;
 	line-height: 57px;
 	border: 0px!important;
-	color: #333;
+	color: var(--text);
 	background:var(--champagne);
 	font-family:Open Sans;
 	font-weight:700;
@@ -1247,7 +1247,7 @@ section{background:var(--champagne);}
 	transition: all .2s ease-in-out;
 	border-radius: 0px;
 }
-.panel-heading a.collapsed{	color: #333;}
+.panel-heading a.collapsed{	color: var(--text);}
 
 .panel-group{
 	padding: 20px;  
@@ -1327,7 +1327,7 @@ ul.no-margin{
 
 /* Hr */
 
-hr {border-top: 2px dotted #cecece;}
+hr {border-top: 2px dotted var(--sand);}
 
 .hr{
 	max-width: 150px;
@@ -1489,7 +1489,7 @@ textarea.form-control:focus{outline:0 none;}
 .polaroid img {
   border: 10px solid var(--champagne);
   border-bottom: 65px solid var(--champagne);
-  box-shadow: 0px 10px 40px 0px #d0cdcd;
+  box-shadow: 0px 10px 40px 0px var(--champagne);
   -webkit-backface-visibility: hidden; /* chrome fix */
 }
 
